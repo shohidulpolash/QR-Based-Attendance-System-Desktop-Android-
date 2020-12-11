@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QR Based Attendance System</string>
+    <string name="forgot">Forgot Your Password? <u>Tap Here</u></string>
+</resources>

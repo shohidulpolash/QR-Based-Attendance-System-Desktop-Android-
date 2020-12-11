@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border1"
+    tools:context=".show_Attendance">
+
+    <TextView
+        android:id="@+id/textViewForDateShowAttendancePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/texvtiew_border"
+        android:hint=" Tap to select date"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#61000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <EditText
+        android:id="@+id/editTextForSectionShowAttendancePAge"
+        android:layout_width="186dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/texvtiew_border"
+        android:hint="      Enter Section"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#61000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextForCourseCodeShowAttendancePAge"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <EditText
+        android:id="@+id/editTextForCourseCodeShowAttendancePAge"
+        android:layout_width="185dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/texvtiew_border"
+        android:hint=" Enter Course Code"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="#61000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewForDateShowAttendancePage"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <Button
+        android:id="@+id/goButtonShowAttendance"
+        android:layout_width="205dp"
+        android:layout_height="75dp"
+        android:background="@drawable/modeltwo"
+        android:fontFamily="@font/baloo_bhai"
+        android:text="  Go"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:backgroundTint="#00DA2C2C"
+        app:backgroundTintMode="src_over"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextForSectionShowAttendancePAge"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="348dp"
+        android:layout_height="421dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/goButtonShowAttendance"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ListView
+            android:id="@+id/listViewshowStudent"
+            android:layout_width="322dp"
+            android:layout_height="419dp"
+            android:divider="#68E299"
+            android:dividerHeight="2dp"
+            android:listSelector="#68E299"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

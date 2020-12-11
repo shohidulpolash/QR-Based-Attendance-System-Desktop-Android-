@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "971871191516",
+    "firebase_url": "https://smart-attendance-system-18302.firebaseio.com",
+    "project_id": "smart-attendance-system-18302",
+    "storage_bucket": "smart-attendance-system-18302.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971871191516:android:3f368dca857919e86a8f19",
+        "android_client_info": {
+          "package_name": "com.example.smartattendancesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971871191516-8g8ri5fih5dseah5lb7so7fftmm803s5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO8sjhpP4B443CJwaJWFBFn5KBu_QUgkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971871191516-8g8ri5fih5dseah5lb7so7fftmm803s5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

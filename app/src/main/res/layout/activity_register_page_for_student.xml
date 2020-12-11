@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ssssss"
+    tools:context=".RegisterPageForStudent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Register"
+        android:textColor="#707070"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <EditText
+        android:id="@+id/studentId"
+        android:layout_width="317dp"
+        android:layout_height="57dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_baseline_book_24"
+        android:drawableLeft="@drawable/ic_baseline_book_24"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="Student Id"
+        android:inputType="textEmailAddress|text"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#a8a8a8"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <EditText
+        android:id="@+id/usernameRegPageForStudent"
+        android:layout_width="317dp"
+        android:layout_height="57dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_user"
+        android:drawableLeft="@drawable/ic_user"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textEmailAddress|text"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#a8a8a8"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
+
+    <EditText
+        android:id="@+id/emailRegPageForStudent"
+        android:layout_width="315dp"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_at"
+        android:drawableLeft="@drawable/ic_at"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#a8a8a8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425" />
+
+    <EditText
+        android:id="@+id/passwordRegPageForStudent"
+        android:layout_width="315dp"
+        android:layout_height="51dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_lock_alt"
+        android:drawableLeft="@drawable/ic_lock_alt"
+        android:drawablePadding="6dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#a8a8a8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <Button
+        android:id="@+id/regPageToLoginPageForStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/log_btn"
+        app:backgroundTint="#00DA2C2C"
+        app:backgroundTintMode="src_over"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926" />
+
+    <Button
+        android:id="@+id/regButtonRegPageForstudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn"
+        app:backgroundTint="#00DA2C2C"
+        app:backgroundTintMode="src_over"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
